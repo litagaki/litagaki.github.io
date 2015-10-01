@@ -217,6 +217,14 @@
 
 /* Grid */
 
+	div.row {
+		margin-left: 15%;
+	}
+
+	div.b {
+		margin-left: 0;
+	}
+
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
@@ -391,9 +399,9 @@
 	}
 
 	.\34 u, .\34 u\24 {
-		width: 33.3333333333%;
+		width: 15%;
 		clear: none;
-		margin-left: 0;
+		margin-left:0
 	}
 
 	.\33 u, .\33 u\24 {
@@ -414,6 +422,12 @@
 		margin-left: 0;
 	}
 
+	.a {
+		width: 33.333333%;
+		clear: none;
+		margin-left: 0;
+	}
+
 	.\31 2u\24 + *,
 	.\31 1u\24 + *,
 	.\31 0u\24 + *,
@@ -422,7 +436,6 @@
 	.\37 u\24 + *,
 	.\36 u\24 + *,
 	.\35 u\24 + *,
-	.\34 u\24 + *,
 	.\33 u\24 + *,
 	.\32 u\24 + *,
 	.\31 u\24 + * {
@@ -1950,7 +1963,7 @@
 		}
 
 			.item header h3 {
-				font-size: 1em;
+				font-size: 0.8em;
 			}
 
 /* Icons */
