@@ -425,7 +425,13 @@
 	.a {
 		width: 33.333333%;
 		clear: none;
-		margin-left: 0;
+		margin: 20px 0 0 0;
+	}
+
+	.a ul {
+		list-style: disc;
+		text-align: left;
+		margin-left: 25px;
 	}
 
 	.\31 2u\24 + *,
