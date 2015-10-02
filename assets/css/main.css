@@ -428,6 +428,10 @@
 		margin: 20px 0 0 0;
 	}
 
+	.a img {
+		height: 280px;
+	}
+
 	.a ul {
 		list-style: disc;
 		text-align: left;
