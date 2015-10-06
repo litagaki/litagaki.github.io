@@ -1,0 +1,13 @@
+/* line 1, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/flash-message.scss */
+.flash-message {
+  border: 1px solid #f0c36d;
+  background-color: #f9edbe;
+  padding: 6px 10px;
+  font-size: 80%;
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  top: 50px;
+  left: 43%;
+  z-index: 1000;
+}

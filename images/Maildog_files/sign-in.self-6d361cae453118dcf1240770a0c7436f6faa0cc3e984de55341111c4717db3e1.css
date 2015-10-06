@@ -1,0 +1,181 @@
+/* line 1, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.sign-in-view {
+  width: 600px;
+  height: 670px;
+  position: relative;
+  padding-top: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+/* line 10, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.circle {
+  border-radius: 50%;
+}
+
+/* line 14, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.canvas {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(/assets/avatar-gray-cdcc6d6dcda827a694dce8bfa9a1ab41113b629ef1cc11f886866af9194c81d0.png);
+  background-size: 100px 100px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 26, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.canvas-container {
+  height: 121px;
+  width: 274px;
+  position: relative;
+}
+
+/* line 32, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.canvas-blue {
+  margin: auto;
+  position: relative;
+  display: block;
+  width: 0px;
+  height: 0px;
+  background-image: url(/assets/avatar-blue-c90965fce806c5b9ac57f0c4e6d9beef58aaa36c531921e290a7b28966c14942.png);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  border-radius: 100%;
+}
+
+/* line 50, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.show {
+  width: 100px;
+  height: 100px;
+}
+
+/* line 55, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.sign-in-view .back-arrow {
+  width: 26px;
+  height: 26px;
+  background-image: url(/assets/back-arrow-sign-in-8d7d4305d9042a6f0a276c0cd646b0f4a18da60a800e844a70f51ad46cc1bd09.png);
+  position: absolute;
+  cursor: pointer;
+}
+
+/* line 63, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.sign-in-view h1 {
+  margin: 50px 0;
+  font-size: 38px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+/* line 70, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.sign-in-view h2 {
+  margin: 20px 0;
+  font-size: 22px;
+  color: #555;
+  font-family: 'Open Sans';
+}
+
+/* line 77, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.sign-in-view .sign-in-form-container {
+  height: 240px;
+  width: 274px;
+  padding: 40px;
+  margin: auto;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+}
+
+/* line 87, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.sign-in-form-container {
+  position: relative;
+}
+
+/* line 91, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.sign-in-view .email-display {
+  color: #404040;
+  font-size: 14px;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 13px;
+}
+
+/* line 99, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.sign-in-as-guest-form {
+  margin: auto;
+}
+
+/* line 103, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.sign-in-view input {
+  background: #fff;
+  width: 275px;
+  height: 44px;
+  font-size: 16px;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  padding: 0 8px;
+  border-radius: 1px;
+  text-align: start;
+  color: #404040;
+  border: 1px solid #dfdfdf;
+}
+
+/* line 118, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.sign-in-view input:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* line 124, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.sign-in-view button {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  border: 1px solid #3079ed;
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  background-color: #4d90fe;
+  background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  width: 275px;
+  font-weight: 700;
+  border-radius: 3px;
+  height: 36px;
+  transition: all 0.218s;
+  margin: 7px auto;
+  cursor: default;
+}
+
+/* line 141, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.sign-in-view button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background: #306df1;
+}
+
+/* line 146, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.sign-in-view .sign-in-as-guest-form {
+  height: 0;
+  width: 275px;
+  position: relative;
+  top: -70px;
+  padding: 0;
+  background: transparent;
+}
+
+/* line 155, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.create-account-link, .sign-in-as-different {
+  color: #427fed;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+/* line 163, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-in.scss */
+.create-account-link:hover, .sign-in-as-different:hover {
+  text-decoration: underline;
+}

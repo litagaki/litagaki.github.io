@@ -1,0 +1,332 @@
+/* line 1, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.header-title-text {
+  display: block;
+  float: left;
+  font-size: 26px;
+  margin: 0 26px;
+  padding: 0 30px;
+}
+
+/* line 9, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.current-user-info {
+  float: right;
+  display: block;
+  width: 170px;
+  position: relative;
+}
+
+/* line 16, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.current-user-info > p {
+  display: block;
+  float: left;
+  margin: 0 10px;
+  position: relative;
+  transform: translateY(7%);
+}
+
+/* line 24, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.current-user-info > aside {
+  float: left;
+  border-radius: 50%;
+  position: relative;
+  transform: translateY(40%);
+}
+
+/* line 31, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.log-out-button {
+  display: block;
+  float: left;
+  position: relative;
+  transform: translateY(7%);
+}
+
+/* line 38, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.mail-main-section {
+  float: left;
+}
+
+/* line 42, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.show-container {
+  float: right;
+  width: calc(100% - 235px);
+  margin-right: 30px;
+  min-height: 100px;
+}
+
+/* line 49, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.check-box {
+  float: left;
+  display: block;
+  height: 15px;
+  width: 15px;
+  position: relative;
+  top: -3px;
+  cursor: default;
+  border-color: grey;
+  border-spacing: 2px;
+}
+
+/* line 62, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.check-box-container {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(155, 155, 155, 0.57);
+  height: 11px;
+  margin: 0 4px 0 1px;
+  vertical-align: text-bottom;
+  width: 11px;
+  margin-left: 12px;
+  margin-right: 4px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 45%;
+  transform: translateY(-45%);
+}
+
+/* line 78, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.check-box-container:hover {
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #b2b2b2;
+}
+
+/* line 84, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.checked-check-box {
+  background: url(/assets/checkmark-2210e36b5b21e54cd4dc2ccdcc06138db8598d704ebf19052e5caa84edb4a675.png) no-repeat -5px -3px;
+  background-image: -webkit-image-set(url(/assets/checkmark-2210e36b5b21e54cd4dc2ccdcc06138db8598d704ebf19052e5caa84edb4a675.png));
+}
+
+/* line 89, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.checked {
+  background-color: #fff;
+}
+
+/* line 93, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-list:first-child {
+  border-top: 1px #e5e5e5 solid;
+}
+
+/* line 97, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-list-item {
+  height: 38px;
+  font-size: 14px;
+  background: rgba(243, 243, 243, 0.85);
+  border-bottom: 1px #e5e5e5 solid;
+}
+
+/* line 104, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.checked-list-item {
+  background: #ffc;
+}
+
+/* line 108, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-list-item-link,
+.email-list-item-div {
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: calc(100% - 60px);
+  float: right;
+  text-align: left;
+  height: 100%;
+}
+
+/* line 121, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-list-item-link p,
+.email-list-item-div p {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+/* line 128, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-list-item-star {
+  float: left;
+}
+
+/* line 132, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-list-item-correspondent {
+  float: left;
+  margin: 0 10px;
+}
+
+/* line 137, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-list-item-subject {
+  float: left;
+  margin-left: 80px;
+}
+
+/* line 142, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-list-item-preview {
+  float: left;
+  margin-left: 5px;
+  color: gray;
+}
+
+/* line 148, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-list-item-time-date {
+  float: right;
+  margin: 0 20px 0 40px;
+}
+
+/* line 153, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-show-item {
+  border-top: 1px #e5e5e5 solid;
+  font-size: 75%;
+  padding: 15px 50px;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 161, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-show-item .thumb {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  background-image: url(/assets/avatar-gray-cdcc6d6dcda827a694dce8bfa9a1ab41113b629ef1cc11f886866af9194c81d0.png);
+  width: 25px;
+  height: 25px;
+}
+
+/* line 170, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-show-sender-name {
+  font-weight: bold;
+  float: left;
+  color: #222;
+}
+
+/* line 176, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-show-sender-email {
+  float: left;
+  margin-left: 7px;
+  color: #555;
+}
+
+/* line 182, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-show-date-time {
+  float: right;
+  display: block;
+}
+
+/* line 187, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-show-body {
+  clear: both;
+  color: #222;
+  width: calc(100% - 140px);
+  word-wrap: break-word;
+}
+
+/* line 194, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-show-item .star {
+  float: right;
+  margin: 7px 10px;
+}
+
+/* line 199, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.reply-forward-email-box {
+  width: 700px;
+  height: 100px;
+  color: #999;
+  height: 64px;
+  padding: 8px 0 0 12px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 75%;
+  margin: 15px 50px;
+}
+
+/* line 211, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-thread-list {
+  margin-right: 280px;
+  min-width: 750px;
+}
+
+/* line 216, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-show-item:last-child {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 220, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.reply-forward-email-form {
+  margin: 15px 280px 15px 50px;
+  font-size: 80%;
+  border: 1px solid #cfcfcf;
+}
+
+/* line 226, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.reply-forward-email-to {
+  border-bottom: 1px solid #cfcfcf;
+  display: block;
+  cursor: text;
+  height: 41px;
+  padding: 0 7px;
+  color: #777;
+  position: relative;
+}
+
+/* line 236, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.reply-forward-email-to input {
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+/* line 243, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.reply-forward-email-form textarea {
+  width: 100%;
+  min-height: 85px;
+  padding: 10px 7px;
+}
+
+/* line 249, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.reply-forward-footer {
+  border-top: 1px solid #cfcfcf;
+  border-left: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+  background-color: #f5f5f5;
+  height: 42px;
+  margin: 0 -1px;
+}
+
+/* line 258, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.reply-forward-footer .garbage-can-holder {
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+/* line 264, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.star {
+  background-image: url(/assets/star-e5b7b36c80b9444eefd181c2862412165e771328f66b0b95ee96d6c59957d13e.png);
+  display: block;
+  height: 19px;
+  width: 19px;
+  position: relative;
+  float: left;
+  margin: 0 5px;
+  cursor: pointer;
+  top: 45%;
+  transform: translateY(-45%);
+}
+
+/* line 277, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.star:hover {
+  background-image: url(/assets/star-hover-b75772a90ef60b9d49c50d43942a4c45b8d4d3a9c7fb13bda8b827e2481ae28a.png);
+}
+
+/* line 281, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.star-on {
+  background-image: url(/assets/star-lit-4b91fbf732ff3dcc3aa1dcfedd3c4d9e432015d53c8c892523f5e04e1f54ae0d.png);
+}
+
+/* line 285, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.star-on:hover {
+  background-image: url(/assets/star-lit-hover-07bb1968ddb06e95c112e66c08bfb782d57bfd0a96b6b1a30989e85c09b72db0.png);
+}
+
+/* line 289, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-main-show.scss */
+.email-show-item .garbage-can-holder {
+  position: relative;
+  top: -10px;
+}

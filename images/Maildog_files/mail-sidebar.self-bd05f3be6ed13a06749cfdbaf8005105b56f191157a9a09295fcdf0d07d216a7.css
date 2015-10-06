@@ -1,0 +1,101 @@
+/* line 1, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-sidebar.scss */
+#mail-sidebar {
+  width: 200px;
+  float: left;
+}
+
+/* line 6, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-sidebar.scss */
+.compose-button {
+  background-color: #d14836;
+  background-image: -webkit-linear-gradient(top, #dd4b39, #d14836);
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  border-radius: 2px;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  white-space: nowrap;
+  height: 27px;
+  line-height: 27px;
+  padding: 1px 8px;
+  width: 97px;
+  margin-left: 30px;
+  display: block;
+  text-align: center;
+}
+
+/* line 26, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-sidebar.scss */
+.main-folders-list,
+.label-list {
+  margin-left: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* line 33, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-sidebar.scss */
+.main-folders-list > li,
+.label-list > li,
+.email-options-label-list > li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 80%;
+  cursor: pointer;
+}
+
+/* line 42, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-sidebar.scss */
+.main-folders-list > li:hover,
+.label-list > li:hover {
+  background: #eaeaea;
+}
+
+/* line 47, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-sidebar.scss */
+#create-new-label-button {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+/* line 52, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-sidebar.scss */
+.labels input {
+  border: 1px solid black;
+  background: #fff;
+  background-clip: padding-box;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0, 0, 0, 0.15);
+  height: 27px;
+  white-space: nowrap;
+  width: 130px;
+  margin-left: 30px;
+}
+
+/* line 64, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-sidebar.scss */
+.labels input:hover {
+  border: 1px solid #a0a0a0;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* line 69, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-sidebar.scss */
+.label-list .icon-dark-cross {
+  float: right;
+  right: 5px;
+  height: 13px;
+  width: 13px;
+  padding: 2px;
+  opacity: .6;
+  background: no-repeat url(/assets/sprite-3c5c55de69747fefdb5d2b355fc115df04a39d614aac971a984fe1d9d98bb3c3.png) 0 -657px;
+  background-image: url(/assets/sprite-3c5c55de69747fefdb5d2b355fc115df04a39d614aac971a984fe1d9d98bb3c3.png);
+  background-position-x: 0px;
+  background-position-y: -657px;
+  transform: translateY(10%);
+  display: none;
+}
+
+/* line 84, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-sidebar.scss */
+.label-list > li:hover .icon-dark-cross {
+  display: block;
+}
+
+/* line 88, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/mail-sidebar.scss */
+.icon-dark-cross:hover {
+  opacity: 1;
+}

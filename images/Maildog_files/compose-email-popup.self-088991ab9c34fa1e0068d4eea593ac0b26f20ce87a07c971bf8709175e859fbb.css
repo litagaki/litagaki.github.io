@@ -1,0 +1,129 @@
+/* line 1, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.compose-email-popup-container {
+  position: fixed;
+  bottom: 0;
+  right: 25px;
+  z-index: 500;
+  min-height: 270px;
+  max-height: 605px;
+  height: auto;
+}
+
+/* line 11, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.compose-email-popup {
+  border: 1px solid #ccc;
+  min-width: 450px;
+  height: 100%;
+  float: left;
+  position: relative;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px;
+  margin-left: 5px;
+}
+
+/* line 22, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.compose-email-popup-header {
+  background: #404040;
+  color: white;
+  cursor: pointer;
+  font-size: 75%;
+  height: 38px;
+}
+
+/* line 30, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.compose-email-popup-header-text {
+  display: block;
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 12px;
+}
+
+/* line 39, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.icon-light-cross {
+  display: block;
+  float: right;
+  cursor: pointer;
+  right: 5px;
+  opacity: .6;
+  background: no-repeat url(/assets/sprite-3c5c55de69747fefdb5d2b355fc115df04a39d614aac971a984fe1d9d98bb3c3.png) 0 -92px;
+  background-image: url(/assets/sprite-3c5c55de69747fefdb5d2b355fc115df04a39d614aac971a984fe1d9d98bb3c3.png);
+  background-position-x: 0px;
+  background-position-y: -92px;
+}
+
+/* line 51, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.icon-light-cross:hover {
+  background-color: #737373;
+  opacity: 1;
+}
+
+/* line 56, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.icon-garbage-can {
+  background: no-repeat url(/assets/sprite-3c5c55de69747fefdb5d2b355fc115df04a39d614aac971a984fe1d9d98bb3c3.png) 0 -239px;
+  background-image: url(/assets/sprite-3c5c55de69747fefdb5d2b355fc115df04a39d614aac971a984fe1d9d98bb3c3.png);
+  background-position-x: 0px;
+  background-position-y: -239px;
+  width: 21px;
+  height: 21px;
+  margin: 5px 0 0 2px;
+  opacity: .55;
+  float: right;
+  padding: 3px 0 3px 0;
+}
+
+/* line 69, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.garbage-can-holder {
+  float: right;
+  width: 28px;
+  height: 27px;
+  margin-right: 5px;
+  margin-top: 3px;
+  display: block;
+  border: 1px solid transparent;
+}
+
+/* line 79, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.icon-garbage-can {
+  display: block;
+}
+
+/* line 83, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.icon-garbage-can:hover {
+  opacity: 1;
+}
+
+/* line 87, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.garbage-can-holder:hover {
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0s;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f1f1f1));
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 94, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.compose-email-popup-to {
+  display: block;
+}
+
+/* line 98, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.compose-email-from {
+  display: block;
+}
+
+/* line 102, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.compose-email-subject {
+  display: block;
+}
+
+/* line 106, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.compose-email-body {
+  display: block;
+}
+
+/* line 109, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/compose-email-popup.scss */
+.compose-email-body > textarea {
+  width: 80%;
+  height: 150px;
+}

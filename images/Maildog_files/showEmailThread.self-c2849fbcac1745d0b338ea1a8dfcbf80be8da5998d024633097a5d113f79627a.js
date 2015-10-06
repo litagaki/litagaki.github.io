@@ -1,0 +1,2 @@
+(function() { this.JST || (this.JST = {}); this.JST["showEmailThread"] = function(obj){var __p=[],print=function(){__p.push.apply(__p,arguments);};with(obj||{}){__p.push('<h3 id=\'email-thread-subject\' class=\'email-thread-subject\'></h3>\n<ul class=\'email-thread-list\'></ul>\n<section class=\'reply-forward-email-section\'>\n</section>\n<article class=\'reply-forward-email-box\'>\n  Click here to Reply or Forward\n</article>\n');}return __p.join('');};
+}).call(this);

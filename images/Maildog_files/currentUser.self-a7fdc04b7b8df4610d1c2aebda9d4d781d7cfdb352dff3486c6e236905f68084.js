@@ -1,0 +1,2 @@
+(function() { this.JST || (this.JST = {}); this.JST["currentUser"] = function(obj){var __p=[],print=function(){__p.push.apply(__p,arguments);};with(obj||{}){__p.push('<form action=\'/session\' method=\'post\'>\n  <input type=\'hidden\' name=\'_method\' value=\'delete\'>\n  <input type=\'hidden\' name=\'authenticity_token\'>\n  <button class=\'log-out-button\'>Log out</button>\n</form>\n\n<p>\n  ',  currentUser.escape("first_name") ,'\n</p>\n<aside class=\'thumb\'></aside>\n');}return __p.join('');};
+}).call(this);

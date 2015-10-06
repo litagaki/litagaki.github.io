@@ -1,0 +1,2 @@
+(function() { this.JST || (this.JST = {}); this.JST["mainFolders"] = function(obj){var __p=[],print=function(){__p.push.apply(__p,arguments);};with(obj||{}){__p.push('<button class=\'compose-button\'>Compose</button>\n<ul class=\'main-folders-list\'>\n  <li id=\'inbox-folder\'>Inbox</li>\n  <li id=\'starred-folder\'>Starred</li>\n  <li id=\'sent-folder\'>Sent Mail</li>\n  <li id=\'drafts-folder\'>Drafts</li>\n  <li id=\'trash-folder\'>Trash</li>\n</ul>\n<ul class=\'compose-email-popup-container\'></ul>\n');}return __p.join('');};
+}).call(this);

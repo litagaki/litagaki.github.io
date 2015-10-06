@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://localhost:3000/#threads/3 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Maildog</title>
+  <link rel="stylesheet" media="all" href="./Maildog_files/compose-email-popup.self-088991ab9c34fa1e0068d4eea593ac0b26f20ce87a07c971bf8709175e859fbb.css" data-turbolinks-track="true">
+<link rel="stylesheet" media="all" href="./Maildog_files/flash-message.self-f16b4633d5b0fd8e236f30faebeebe9e94d81d8a87c047b296a435de59901367.css" data-turbolinks-track="true">
+<link rel="stylesheet" media="all" href="./Maildog_files/mail-main-show.self-04fac89fc7159535f1ce149d4836095d200ffb5b145af14e9e890428588e22a9.css" data-turbolinks-track="true">
+<link rel="stylesheet" media="all" href="./Maildog_files/mail-nav.self-671887ad076c4a1bc45d0f08708afd7a90e3e319a6a406c1095047ce37519984.css" data-turbolinks-track="true">
+<link rel="stylesheet" media="all" href="./Maildog_files/mail-sidebar.self-bd05f3be6ed13a06749cfdbaf8005105b56f191157a9a09295fcdf0d07d216a7.css" data-turbolinks-track="true">
+<link rel="stylesheet" media="all" href="./Maildog_files/sign-in.self-6d361cae453118dcf1240770a0c7436f6faa0cc3e984de55341111c4717db3e1.css" data-turbolinks-track="true">
+<link rel="stylesheet" media="all" href="./Maildog_files/sign-up.self-e2a0450ff8047b59016c173be58cf22b9ecf8a128e4b9060a63719af6b4f6c5f.css" data-turbolinks-track="true">
+<link rel="stylesheet" media="all" href="./Maildog_files/application.self-3b5151ab242d8dcd8d3c99ded379c644d5d54ff7afade44c23aa007bf1365437.css" data-turbolinks-track="true">
+  <script src="./Maildog_files/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/jquery.transit.self-77477887e9f4d2e2f3719aa53b54c3f02958d7ea6e5000a39deec7d22d452c90.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/underscore.self-b84a7a5ac0e8afc4f176b95606590bfc56044eeae9286097bdee013a6909fde5.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/backbone.self-0977290d5e68ce40d516cd4dc3965586680024e51399f0ee54ee8ed3a99b1506.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/composite_view.self-fa5f47f94848332c2c7b1315019abfce702ecb698edb600e43797c25d5755a89.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/maildog.self-c240651b7e70ec8572bef37a7c3e3ccb3bc25c52505766177f58f7900635410a.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/composeEmailBox.self-31f2c98be0a4efa8f5bea021c033db44dad629bc8ce744984fde02166ec4d860.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/currentUser.self-a7fdc04b7b8df4610d1c2aebda9d4d781d7cfdb352dff3486c6e236905f68084.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailList.self-f23c798272426a62aa6f8b15cb8021fa3e891781371df7418e00c9187900792f.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailListItem.self-a4200ec07ca9a58790d06b0a41080105b8d6d331945dcde1deae3237d3f415da.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailNavigation.self-2369cbdc29ff111f6dccfa01e012fa4f1becc94265ca725167fc0556eafdc3b8.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailOptionsLabelListItem.self-71b9b71e40e7ba750c1c3878b4ea5125c69efd87267994523c46b589d5e78025.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailOptionsList.self-245b6a941bf6d2ceb6b426666141e6531819dbc9b063bbf3f53ef093f5b1547c.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailOptionsShow.self-e2a05660c9ecd70ca49660808d93ff6a04f5675dbf1776ff401859b19395a713.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailShow.self-bf71553644761575ef02bd05eb6430442c4d5e64cdf959b81aada4bc0cccc1e3.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/flashMessage.self-bb093ca7b612fad371ffb4cf9010bb1a0fae933f08c5d709720cb3a92a73488c.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/labelList.self-676431389f7c32809194399141cdff0e0198c826e999e6e678b2f59a373afdd3.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/labelListItem.self-43e76b14312ef30f081c656d9a371912494f28739c63b8dd73f52177853550d5.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/mailIndex.self-a75956f0df2b0b528c39ebdec972a72307ff463dead283db04986c190e392255.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/mailSidebar.self-8aba1acb7e6f3bfa6dac970d930da3e5c3dcc8483d8ee1be9ff71e473a9ca7a0.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/mainFolders.self-52e2cf218540209df6dd6531eef7dd2ed44dd1391b56bd6ab66beb1342422ddc.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/pagesMenu.self-97e2158c47d39a3a4d71ffdb6d1b3b37f1e76c504b8f9bb37d43c0da750c7d1d.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/replyForwardEmailBox.self-7e0907c37af51c3ceb545db45f4bdcfa4b245bcafebf8000753d0d54de6a7794.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/searchBar.self-76c775448b32420a36cecdefc362d0f2b150f8c370b8c614cd593d2b6f841307.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/showEmailThread.self-c2849fbcac1745d0b338ea1a8dfcbf80be8da5998d024633097a5d113f79627a.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/signIn.self-4ff9954fe985b7985f671d30986b8d363f644230c7e2e6f3e7aacfeffaedfe3f.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/signInBox.self-0334cd18bf0bf32a35cce7feb59c9843fef825dbc3f6d7d5062537fcf9950ffc.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/newEmail.self-c3e134c29ead2d03b6c3524ee464eb73b50218660f0d8b4633c5ee06c95fc2ab.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/contact.self-200fdbacefc17d472b30ea92f3c9b02643df2323415ca554436113826f46ca6a.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/currentUser.self-76da63f4932f08f7325f4403bb97f0e5cb914e6c7e029d11ada491b9254b2f1c.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/email.self-722e08ce34a10b8120704422c1387ffdb39f57fe55d7f9965dc621fe4ac25032.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailThread.self-11181a6daff566b4dfea899364c308cd2dfc73754ec74f12ca76be0836ab0cf6.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/label.self-299c496d09f8c5762c3e47d01699e78299d2fbedda9ecbdf933e396657ea0b10.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/threadLabel.self-c709fff769c8a2067abd5df866947a18f0762eb96e1febaf2c8957018a35b3f3.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/user.self-f95c7038f2648f62b5de39671e60407788687b4bcd84e7977de87e511edae428.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/contacts.self-06ce7ecb34b37b2567d1548924471ea9fdcdaf4971bb9326997d5950f2382648.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailThreads.self-6f3a30f62f4dfa3e7bf5e86326a393f8f0f04b0aabecf7d62da71f70020a626e.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emails.self-a04ca27ae1bf27215670aaf9f7bc7197bfde9885c9fe93bfa76e543a24d375af.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/labels.self-f6da88fbd26003a7db0cdc653f2ad739fe9c9d58000c770b7f427f72364a0f52.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/searchResults.self-2ed6f33bfc1194503f56b952c4728a88a7b8efe80346b7d4e52c9d560f273b9d.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/LabelList.self-a8c17868e5942516a202fd6da074dba49e890ef212b7534585b369528e07a7bf.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/LabelListItem.self-beb8b17c882b9dc51e91477ffce2a585f5ed12d23ce75eddcd127a607e8640c2.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/composeEmailBox.self-a26168cbcf7649464fb637b5da1486ea9103e4835213bbab16fd657c72c08794.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/currentUser.self-5c2188ab52657367e9128eb983b85549622ba9e6ec9cf46a32ae3cf28586aa4b.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailList.self-94b9ec3d2fc744469a86c34c52f32670ec727930c29c7f8100210595cdc0a2d7.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailListItem.self-a5d2578719b4bdd97c5edb04a6d0043a0e6816ead75970205febf81285e623b8.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailNavigation.self-9fb4587eb13a5f4cbc1dcecf7f0238735467673b1b833fa199887d8f3eaf64e8.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailOptions.self-d02da0f98fdfbbc6d04e61610611e8342893b0ff91adbec1b8ec4b611913cb5f.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailOptionsLabelListItem.self-458a38acc55525f7feb2407cd6a8a8ea287ded1313851a1759f77b224385fc6a.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/emailShow.self-5ab4d133f88f2e1b6e2d9b37ef7bc96dc8c6b46e96129c7f52f571e2828ec0cf.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/flashMessage.self-2a8e9baa351e2425470ee0e94ac40e467321efd2d39e8b19d446a1c3dbcb960f.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/mailNav.self-e14ce4c8682a0e075f03ba29cc8fd550e3f4133166d4a67b28fe6af15092b07d.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/mailSidebar.self-b586a4fa0a79c7107478bd481dbd77f4bcbf6b886353422806cbca68b346e4b4.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/mainFolders.self-da9ad3e797c74ab7a6e93f4e7701e2b8772a630a32f407eda586f4972ab006dc.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/pagesMenu.self-be2d44203c512a4ebe5bf3656ac1ac24608e7c87929e51149d9dfb1484c54254.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/replyForwardEmailBox.self-d40af30882aef09ce25c399d037736185e28e314ce5a0c19e438493d70fde8b6.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/search.self-17e07c047e0eb301813472f3637202b90376340fcc147bb0e5829f700e3dfb94.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/searchBar.self-c9869bd104c05a428454623ef579d6e544bd11d0f7ed4c040696045a74b9d6d6.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/showEmailThread.self-72aadbdacaf92e2bc3cc0ff1c2af4c0d26f902ad53b2eef5a3fb67eceb394f8a.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/signIn.self-3bb4b38709ff70bccbe8d86bb41677456f3f88729c7bf705eec56faef4d28ab4.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/signInBox.self-d6b315772701b8714d41a9f6b24ef9c60e61083d8b0e8322083e18621e4d9f0f.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/router.self-4e95c466825e235e9463da77dd07e6966790a7ab0b2338d31743611e83055265.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/folders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/signUpForm.self-a8f6d4b278c2b4d53f4c060e5e790f410373dff48a5cf7658cfda265f7673e9f.js" data-turbolinks-track="true"></script>
+<script src="./Maildog_files/application.self-e5d5cca64271c4c8ebd7d72a4e34c6eb16e8f036b14a575d09fa3fbb5df6f25e.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="R4k3uftYAeZbgkJOuP768l6RGScW/tMsG3zuqwZq7LmhQxkAmMNlqBz2Ay2RfSJklkywYuzfumpWR2xS/nqrxw==">
+</head>
+<body cz-shortcut-listen="true">
+
+<section class="main-container">
+  <section class="flash-container"></section>
+  <section id="mail-nav"><div><header class="mail-header group">
+  <a href="http://localhost:3000/#" class="header-title-text">Maildog</a>
+<div class="search-bar"><input type="text" class="query">
+<button id="search-button">Search</button>
+</div><div class="current-user-info"><form action="http://localhost:3000/session" method="post">
+  <input type="hidden" name="_method" value="delete">
+  <input type="hidden" name="authenticity_token" value="R4k3uftYAeZbgkJOuP768l6RGScW/tMsG3zuqwZq7LmhQxkAmMNlqBz2Ay2RfSJklkywYuzfumpWR2xS/nqrxw==">
+  <button class="log-out-button">Log out</button>
+</form>
+
+<p>
+  Petr
+</p>
+<aside class="thumb"></aside>
+</div></header>
+<nav class="mail-nav group">
+  <section class="pages-menu"><div><h4>DogMail</h4>
+</div></section>
+  <section class="email-options"><div><button id="email-show-back-button" class="gray-button">Back</button>
+
+<button id="delete-email-thread" class="gray-button">Delete</button>
+
+<div class="gray-button label-as-button-container">
+  <div class="icon-label-as-button" style="opacity: 0.55;"></div>
+  <div class="down-arrow-symbol" style="opacity: 0.55;"></div>
+  <ul class="email-options-label-list invisible">
+    <p>Label as:</p>
+  </ul>
+</div>
+</div></section>
+  <section class="email-navigation"><div><p class="made-with-love">Made with &lt;3 by
+  <a href="https://www.petrgazarov.com/">Petr Gazarov</a>
+</p>
+<button id="back-button"></button>
+<button id="forward-button"></button>
+<button id="settings-button"></button>
+</div></section>
+</nav>
+</div></section>
+  <section id="mail-sidebar"><ul><div class="main-folders"><li><button class="compose-button">Compose</button>
+<ul class="main-folders-list">
+  <li id="inbox-folder">Inbox</li>
+  <li id="starred-folder">Starred</li>
+  <li id="sent-folder">Sent Mail</li>
+  <li id="drafts-folder">Drafts</li>
+  <li id="trash-folder">Trash</li>
+</ul>
+<ul class="compose-email-popup-container"></ul>
+</li></div>
+<div class="labels"><div><button id="create-new-label-button" class="blue-button" disabled="">Create new label</button>
+<ul class="label-list"></ul>
+<input type="text" class="new-label-input">
+</div></div>
+</ul></section>
+  <div class="show-container"><div><h3 id="email-thread-subject" class="email-thread-subject">Atom editor</h3>
+<ul class="email-thread-list"><ul class="email-show-item group"><aside class="thumb"></aside>
+<p class="email-show-sender-name">
+  Nikita
+  Gazarov
+</p>
+<p class="email-show-sender-email">
+  nikita@maildog.xyz
+</p>
+<div class="garbage-can-holder">
+  <aside id="delete-message" class="icon-garbage-can"></aside>
+</div>
+<div class="star "></div>
+<p class="email-show-date-time">
+  2015-09-11
+</p>
+<p class="email-show-body">
+  You should check this out! --
+GitHub recently released the awesome Atom text editor, 
+and although many of the keyboard shortcuts will be familiar 
+to Sublime Text users, there are many subtle differences.
+</p>
+</ul><ul class="email-show-item group"><aside class="thumb"></aside>
+<p class="email-show-sender-name">
+  Petr
+  Gazarov
+</p>
+<p class="email-show-sender-email">
+  petr@maildog.xyz
+</p>
+<div class="garbage-can-holder">
+  <aside id="delete-message" class="icon-garbage-can"></aside>
+</div>
+<div class="star "></div>
+<p class="email-show-date-time">
+  2015-09-12
+</p>
+<p class="email-show-body">
+  Yeah, it's great. I've used it on a number of projects
+Petr
+</p>
+</ul><ul class="email-show-item group"><aside class="thumb"></aside>
+<p class="email-show-sender-name">
+  Nikita
+  Gazarov
+</p>
+<p class="email-show-sender-email">
+  nikita@maildog.xyz
+</p>
+<div class="garbage-can-holder">
+  <aside id="delete-message" class="icon-garbage-can"></aside>
+</div>
+<div class="star "></div>
+<p class="email-show-date-time">
+  2015-09-12
+</p>
+<p class="email-show-body">
+  Send me the link to your chess game
+Nikita
+</p>
+</ul><ul class="email-show-item group"><aside class="thumb"></aside>
+<p class="email-show-sender-name">
+  Petr
+  Gazarov
+</p>
+<p class="email-show-sender-email">
+  petr@maildog.xyz
+</p>
+<div class="garbage-can-holder">
+  <aside id="delete-message" class="icon-garbage-can"></aside>
+</div>
+<div class="star "></div>
+<p class="email-show-date-time">
+  2015-09-13
+</p>
+<p class="email-show-body">
+  https://github.com/petrgazarov/Chess
+</p>
+</ul></ul>
+<section class="reply-forward-email-section">
+</section>
+<article class="reply-forward-email-box">
+  Click here to Reply or Forward
+</article>
+</div></div>
+</section>
+
+<script>
+  $(function() {
+    Maildog.initialize();
+  })
+</script>
+
+
+
+
+</body></html>

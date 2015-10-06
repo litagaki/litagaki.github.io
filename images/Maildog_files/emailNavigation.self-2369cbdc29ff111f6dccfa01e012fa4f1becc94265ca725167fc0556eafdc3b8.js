@@ -1,0 +1,2 @@
+(function() { this.JST || (this.JST = {}); this.JST["emailNavigation"] = function(obj){var __p=[],print=function(){__p.push.apply(__p,arguments);};with(obj||{}){__p.push('<p class=\'made-with-love\'>Made with <3 by\n  <a href=\'https://www.petrgazarov.com\'>Petr Gazarov</a>\n</p>\n<button id=\'back-button\'></button>\n<button id=\'forward-button\'></button>\n<button id=\'settings-button\'></button>\n');}return __p.join('');};
+}).call(this);

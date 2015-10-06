@@ -1,0 +1,37 @@
+/* line 1, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-up.scss */
+.header {
+  height: 71px;
+  background: #f1f1f1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 7, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-up.scss */
+.logo {
+  display: block;
+  float: left;
+  font-size: 36px;
+  margin: 15px 30px;
+}
+
+/* line 14, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-up.scss */
+.header aside {
+  float: right;
+  margin: 25px 58px 24px 0;
+}
+
+/* line 19, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-up.scss */
+.create-account-form {
+  background: #f1f1f1;
+  width: 700px;
+  padding: 25px;
+  margin: 50px auto;
+}
+
+/* line 26, /Users/appacademy/Desktop/Maildog/app/assets/stylesheets/sign-up.scss */
+.create-account-form input {
+  background: white;
+  padding: 0 8px;
+  display: block;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+}
